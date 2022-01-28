@@ -10,6 +10,7 @@ function displayTime() {
 
     
     
+    
     if(hr>=12){
         session.innerHTML='PM';
         
@@ -18,6 +19,11 @@ function displayTime() {
     else{
         session.innerHTML='AM';
     }
+    if(hr>12){
+        hr=hr-12;
+        document.getElementById('hour').innerHTML=hr;
+    }
+
 
 
     
