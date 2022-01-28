@@ -23,9 +23,6 @@ function displayTime() {
         hr=hr-12;
         document.getElementById('hour').innerHTML=hr;
     }
-
-
-
     
 }
 setInterval(displayTime, 10);
